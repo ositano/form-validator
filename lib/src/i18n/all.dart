@@ -23,6 +23,10 @@ import 'vi.dart';
 import 'zh_cn.dart';
 import 'bn.dart';
 import 'ko.dart';
+import 'sw.dart';
+import 'ig.dart';
+import 'ha.dart';
+import 'yr.dart';
 
 const localeMap = <String, FormValidatorLocale>{
   'ar': LocaleAr(),
@@ -49,6 +53,10 @@ const localeMap = <String, FormValidatorLocale>{
   'ko': LocaleKo(),
   'fa': LocaleFA(),
   'ps': LocalePS(),
+  'ig': LocaleIg(),
+  'ha': LocaleHa(),
+  'sw': LocaleSw(),
+  'yr': LocaleYr(),
 };
 
 final supportedLocales = localeMap.keys.toList();
